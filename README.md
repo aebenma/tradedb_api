@@ -1,6 +1,6 @@
 # tradedb_api
  
-# API Integration
+## API Integration
 
 The API has four endpoints. Assuming we are hosted on `127.0.0.1`:
 
@@ -14,13 +14,6 @@ The API has four endpoints. Assuming we are hosted on `127.0.0.1`:
 The root `127.0.0.1/` displays all of the trades made. Run the code with
 
 `python -m uvicorn main:app --reload`
-
-**Demo:**
-
-1. [`http://127.0.0.1:8000/traders/new/](http://127.0.0.1:8000/traders/new/elon3)wes` - This creates a new trader “wes”
-2. [`http://127.0.0.1:8000/trades/new/USDMXN/100.00/17.2400/andres`](http://127.0.0.1:8000/trades/new/USDCHF/100.00/1.2400/andres) - Andres trades USDCHF with amount $100.00 at price $1.2400. 
-3. [`http://127.0.0.1:8000/traders/](http://127.0.0.1:8000/traders/new/elon3)wes` displays Wes’ name and trader id. 
-4. [`http://127.0.0.1:8000/trade](http://127.0.0.1:8000/traders/new/elon3)s/102` displays the trade we made earlier. 
 
 **Discussion:** 
 
